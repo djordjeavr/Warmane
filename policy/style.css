@@ -1,0 +1,85 @@
+.wrapper{
+    z-index: 2;
+    width: 1000px;
+    margin: 0 auto;
+    top: -136px;
+    bottom: -136px;
+    position: relative;
+    border: 5px solid #240d01;
+    border-radius: 3%;
+    background-color: #0f0f0f;
+    padding: 7px;
+    overflow: hidden;
+}
+#page-heder{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #1e1e1e;
+}
+#page-heder ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#page-heder ul li{
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    color: #505050;
+    float: left;
+    margin-left: 10px;
+}
+#page-heder ul li a{
+    color: #505050;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+}
+#page-heder ul li a:hover{
+    color: #c1b575;
+}
+#mein{
+  margin-top: 2px;
+margin-right: 0;
+    width: 100%;
+    padding: 20px;
+    border-top:1px solid #1e1e1e ;
+    border-right: 1px solid #1e1e1e;
+    height: 1347px;
+   float: left;
+    color: #505050;
+    font-size: 13px;
+    
+   
+}
+
+#footer{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    font-size: 15px;
+    width: 700px;
+    
+}
+#footer a{
+    text-decoration: none;
+    color:#606060;
+    margin-left: 10px;
+
+}
+#footer a:hover{
+    color: #c1b575;
+}
+#page-heder p{
+    width: 100px;
+    float: right;
+    margin-left: 0;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}

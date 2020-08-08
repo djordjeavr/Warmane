@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="forum/forum.css">
+<div id="page-heder">
+    <ul>
+        <li><a href="#!">NEWS</a> </li>
+        <li><a href="https://www.warmane.com/stream" target="_blank">STREAM</a></li>
+        <li><a href="#!devlog">DEVLOG</a></li>
+        <li><a href="https://www.warmane.com/changelog" target="_blank">CHANGELOG</a></li>
+        <li><a href="">BUGTRACKER</a></li>
+    </ul>
+    <p id="time"><ag-clock></ag-clock></p>
+</div>
+
+<div id="mein">
+   <div class="forum-table" ng-repeat='i in arr'>
+       <h3 ng-click='Openpost(i)'><a href="#!post"  > {{i.title}}</a></h3>
+       <p>{{i.date}}</p>
+
+   </div>
+</div>

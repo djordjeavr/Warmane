@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="account/settings/settings.css">
+<div id="page-heder">
+  
+    <ul>
+      <li><a href="#!account" >MY ACCOUNT</a></li>
+      <li><a href="#!settings">SETTINGS</a></li>
+      <li><a href="" ng-click='Logout()'> LOG OUT</a></li>
+     
+      
+  </ul>
+          <p id="time"><ag-clock></ag-clock></p>
+      </div>
+   
+      <div id="mein">
+        <p class="title">ACCOUNT PASSWORD</p>
+        <br>
+        <label for="">Current password</label>
+        <br>
+        <input type="password"  ng-model='password' >
+        <br>
+        <label for="">New password</label>
+        <br>
+        <input type="password"   ng-model='newPassword' >
+        <br>
+        <label for="" >Confirm new password</label>
+        <br>
+        <input type="password" ng-model='newConfirmPass' >
+        <br>
+        <p>This will also changes your forum password</p>
+        <button ng-click='ChangePass()'>CHANGE PASSWORD</button>
+        <br>
+        <span>{{msg}}</span>
+        
+         
+      </div>
+      <div id="sidebar">
+        <p class="title">ACCOUNT EMAIL</p>
+        <br>
+        <label for="">Current password</label>
+        <br>
+        <input type="password"  ng-model='password' >
+        <br>
+        <label for="">New Google email addres</label>
+        <br>
+        <input type="text" ng-model='newEmail' >
+        <br>
+        <label for="" >Confirm new Google email addres</label>
+        <br>
+        <input type="text"  ng-model='newConfirmEmail'>
+        <br>
+        <p>This will also change your forum email address<br>
+            You can change your email address once every 30 days</p>
+        <button ng-click='ChangeEmail()'>CHANGE EMAIL</button>
+        <br>
+        <span>{{msgEmail}}</span>
+       
+      </div>

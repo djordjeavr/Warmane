@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="warmane.css">
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.min.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    <title>Warmane | WoW Private Server</title>
+</head>
+<body  ng-app='App'>
+   
+    <div class="navbar">
+        <a href="#!" class=" navbar-logo"></a>
+        <div class="navigation">
+            <ul class="navli">
+                <li><a href="#!createAccount"> CREATE ACOUNT</a></li>
+              <li><a href="#!download"> DOWNLOAD</a></li>
+              <li><a href="#!forum"> FORUM</a></li>
+              <li><a href="#!information"> INFORMATION</a></li>
+              <li><a href='#!armory'> ARMORY </a></li>
+              <li><a href="#!login" ng-if='!isLogged'> LOG IN</a></li>
+            </ul>
+            <div class="socials-button">
+                <a href="https://www.facebook.com/warmane" target="_blank"><i class="icon ion-logo-facebook"></i></a>
+                <a href="https://plus.google.com/+warmane" target="_blank"><i class="icon ion-logo-googleplus"></i></a>
+                <a href="https://www.youtube.com/c/warmane" target="_blank"><i class="icon ion-logo-youtube"></i></a>
+                <a href="https://www.reddit.com/r/warmane/" target="_blank"><i class="icon ion-logo-reddit"></i></a>
+                <a href="https://www.twitch.tv/warmane" target="_blank"><i class="icon ion-logo-twitch"></i></a>
+                <a href="https://twitter.com/warmaneofficial" target="_blank"><i class="icon ion-logo-twitter"></i></a>
+            </div>
+        </div>
+     
+    </div>
+    <div class="page-video">
+        <video style="position:relative;z-index:-999;" width="100%" height="100%" autoplay loop muted>
+            <source src="https://www.warmane.com/renders/_snow.mp4">
+            <source src="https://www.warmane.com/renders/_snow.webm">
+        </video>
+    </div>
+   
+    <div class="wrapper" ng-view>
+
+    </div>
+       
+
+    <div id="footer">
+        <a href="#!terms">Terms of Service</a>
+        <a href="#!privacy">Privacy Policy</a>
+        <a href="#!refund"> Refund Policy </a>
+        <a href="http://forum.warmane.com/forumdisplay.php?132-Support-amp-Q-A">Contact Us</a>
+        <br>
+        <p>Copyright © Warmane™ 2019. All Rights Reserved.</p>
+    </div>
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="information/chart.js"></script>
+    <script src="warmane.js"></script>
+    <script src="config.js"></script>
+    <script src="home/home.js"></script>
+    <script src="CreateAccount/createAccount.js"></script>
+    <script src="directive/clock.js"></script>
+    <script src="Download/download.js"></script>
+    <script src="login/login.js"></script>
+    <script src="retrieveAccount/retrieve.js"></script> 
+    <script src="service/saveService.js"></script>  
+    <script src="account/account.js"></script>
+    <script src="account/settings/settings.js"></script>
+    <script src="armory/armory.js"></script>
+    <script src="forum/forum.js"></script>
+   
+  
+   
+    </body>
+    </html>

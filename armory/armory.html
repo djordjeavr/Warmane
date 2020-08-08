@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="armory/armory.css">
+<div id="page-heder">
+    <ul>
+        <li><a href="#!armory">Home</a> </li>
+        <li><input type="search" placeholder="search" ng-model='search'></li>
+     
+    </ul>
+    <p id="time"><ag-clock></ag-clock></p>
+</div>
+<div id="mein">
+    <div id="player" ng-repeat='user in users | filter:search' >
+       
+        <p class="infoPlayer">{{$index+1}}.</p>
+        <p class="infoPlayer"> User Name: {{user.accName}}</p>
+        <p class="infoPlayer">Forum Name: {{user.forumName}}</p>
+    </div>
+  
+</div>

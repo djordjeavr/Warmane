@@ -1,0 +1,154 @@
+#page-heder{
+    width: 100%;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+#mein{
+  margin-top: 2px;
+margin-right: 0;
+    width: 50%;
+    padding: 20px;
+    border-top:1px solid #1e1e1e ;
+    border-right: 1px solid #1e1e1e;
+    height: 342px;
+   float: left;
+    color: #c1b575;
+    font-size: 13px;
+   
+}
+#page-heder ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#page-heder ul li{
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    color: #505050;
+    float: left;
+    margin-left: 10px;
+}
+#page-heder ul li a{
+    color: #c1b575;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+
+    
+}
+#page-heder p{
+    width: 100px;
+    float: right;
+    margin-left: 0;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#sidebar{
+    height: 342px;
+    width: 41.6%;
+    border-top:1px solid #1e1e1e ;
+    border-left: 1px solid #1e1e1e;
+    position: relative;
+    float: right;
+    margin-top: 2px;
+    padding: 20px;
+}
+#mein input{
+    background-color: #000000;
+    border-color: #1e1e1e;
+    color: #c1b575;
+    margin-top: 0;
+    width: 216px;
+    height: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+#mein label{
+    color: #606060;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    
+}
+#sidebar input{
+    background-color: #000000;
+    border-color: #1e1e1e;
+    color: #c1b575;
+    margin-top: 0;
+    width: 216px;
+    height: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+#sidebar label{
+    color: #606060;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    
+}
+
+
+
+#mein a{
+   
+   
+    color: #3c9fc9;
+    font-size: 14px;
+
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #1e1e1e;
+    
+}
+#sidebar a{
+    text-decoration: none;
+    color: #1f6fbf;
+}
+#mein p{
+    color:#606060 ;
+    margin: 3px;
+    font-size: 14px;
+
+}
+.title{
+    color: #606060;
+    font-size: 15px;
+}
+
+#sidebar p{
+    color: #606060;
+    margin: 3px;
+    font-size: 14px;
+}
+button{
+    text-shadow: 2px 2px 2px #202020;
+   
+    color: #999;
+    font-size: 14px;
+    width: 193px;
+    height: 42px;
+    border-radius: 4px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+}
+span{
+    color: red;
+    font-size: 16px;
+}

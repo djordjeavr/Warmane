@@ -1,0 +1,33 @@
+
+<link rel="stylesheet" href="login/login.css">
+<div id="page-heder">
+    <a href="#!login" >LOG IN</a>
+        <p id="time"><ag-clock></ag-clock></p>
+    </div>
+    <div id="mein" >
+       <label  for="" >Acount name</label >
+       <br>
+       <input type="text" class="inp" ng-model='accountName'>
+       <br>
+       <label for="">Password</label>
+       <br>
+       <input type="password" class="inp" ng-model='password'>
+       <br>
+      
+    <br>
+    <input type="checkbox" id="check">
+    <span>Remember me</span>
+    <br>
+    <input type="button" value="Log IN" id="butt" ng-click='Login()'>
+
+    <p id="text">{{msg}}</p>
+       
+
+    </div>
+    <div id="sidebar">
+        <a href="#!retrieve account">Forgot your account password?</a>
+        <a href="#!retrieve account">Forgot your account username?</a>
+        <a href="#!retrieve account">Did not recive account activation email?</a>
+        <a href="#!retrieve account">Two factor authentication issues?</a>
+       
+    </div>

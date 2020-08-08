@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="forum/forum.css">
+<div class="div" ng-if='isLogged'>
+<button ng-click='newReplay()'>NEW REPLAY</button>
+
+</div>
+<div class="postDetails"  ng-repeat='i in arr' ng-if='i.openThisPost==true' >
+    <div class="userInfo" >
+        <img ng-src={{i.img}}
+         alt="" style="width: 150px;">
+         <strong>
+             <span class="forumNameAdmin">{{i.forumName}}</span>
+         </strong>
+         <br>
+         <span class="userTitle">Staff</span>
+    </div>
+    <div class="post">
+        <div class="postTitle">
+            <h2>{{i.title}}</h2>
+        </div>
+        <div class="content">
+            <blockquote>
+              {{i.content}}
+            </blockquote>
+        </div>
+    </div>
+    <div class="postFooter"></div>
+
+
+
+<div class="postDetails" ng-repeat='i in i. userForumDocuments' >
+    <div class="userInfo">
+        <img ng-src={{i.img}}
+         alt="" style="width: 150px;">
+         <strong>
+             <span class="forumName">{{i.forumName}}</span>
+         </strong>
+         <br>
+         <span class="userTitle">Member</span>
+    </div>
+    <div class="post">
+       
+        <div class="content">
+            <blockquote>
+{{i.newReplay}}
+            </blockquote>
+        </div>
+    </div>
+    <div class="postFooter"></div>
+</div>
+<div class="newReplay" ng-if='Replay'>
+    <textarea name="" id="Post" cols="100" rows="20" ng-model='userObj.newReplay'></textarea>
+    <br>
+    <button ng-click='Post(i)'>Post Quick Replay</button><button ng-click='Cancel()'>Cancel</button>
+</div>
+</div>

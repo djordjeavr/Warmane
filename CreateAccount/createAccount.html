@@ -1,0 +1,45 @@
+
+<link rel="stylesheet" href="CreateAccount/createAccount.css">
+<div id="page-heder">
+    <a href="#!createAccount" >CREATE AN ACCOUNT</a>
+        <p id="time"><ag-clock></ag-clock></p>
+    </div>
+    
+    <div id="mein">
+    
+       <label for="">Acount name</label>
+       <br>
+       <input type="text" id="accountname"  ng-model='user.accName'>
+       <br>
+       <label for="">Password</label>
+       <br>
+       <input type="password"  id="password"  ng-model='user.password'>
+       <br>
+       <label for="" >Confirm password</label>
+       <br>
+       <input type="password" id="confirmpassword" ng-model='user.confirmPass'>
+       <br>
+       <label for="">Google email address</label>
+       <br>
+       <input type="email" id="email" ng-model='user.email' name="email" >
+       
+       <br>
+       
+       
+       
+    </div>
+    <div id="sidebar" >
+        <label for="" >Forum username</label>
+        <br>
+        <input type="text" id="username"  ng-model='user.forumName'>
+        <br>
+        
+        <input type="checkbox" id="check"  checked>
+   
+        <span>I agree to <a href="terms of service.html">Terms of Service</a> and <a  href="Privaty Policy.html">Private Policy</a >Teams </a></span>
+        <br>
+        <input type="button" value="CREATE AN ACCOUNT" id="butt" ng-click='Save()'  >
+        <p id="txt">{{msg}}</p>
+   
+       
+    </div>

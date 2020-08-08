@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="account/account.css">
+<div id="page-heder">
+  
+  <ul>
+    <li><a href="#!account" >MY ACCOUNT</a></li>
+    <li><a href="#!settings">SETTINGS</a></li>
+    <li><a href="" ng-click='Logout()'> LOG OUT</a></li>
+    
+</ul>
+        <p id="time"><ag-clock></ag-clock></p>
+    </div>
+ 
+    <div id="mein">
+      <p class="title">ACCOUNT SUMMARY</p>
+      <br>
+      <p>Logged in as {{accName}} </p>
+      <p>Coins:0</p>
+      <p>Points: {{votePoints}}  (<a ng-click='Vote()'>Collect points</a>)</p>
+      <br>
+      <br>
+      <p>Email address: {{email}}</p>
+      <p>Two Factor Authentication: Disabled</p>
+
+       
+    </div>
+    <div id="sidebar">
+      <p class="title">ACCOUNT DETAILS</p>
+      <br>
+      <p>Account Status: In good standing</p>
+      <p>Donation status: <span id="donationStatus">Premium</span></p>
+      <p>Activity rank: <span>Ambassador</span></p>
+      <p>Communicty rank: Patriot</p>
+    </div>
